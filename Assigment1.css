@@ -1,0 +1,620 @@
+.header {
+    overflow: hidden;
+    background-color: #4863A0;
+    padding: 15px 10px;
+    background: -moz-radial-gradient(#87AFC7,#728FCE,#4863A0);
+    position: static;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .header a.name {
+    font-size: 25px;
+  }
+
+  .btn_download {
+    background-color:white;
+    border: none;
+    color:#4863A0;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 1.5px 1px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  .header-right {
+    float: right;
+  }
+
+div.header_text{
+    padding-top: 100px;
+    text-align: center;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: -moz-radial-gradient(#87AFC7,#728FCE,#4863A0);
+    
+}
+/* .hed_text_bold{
+    font-weight: bold;
+
+} */
+
+.phone_image{
+        min-height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 350px;
+        position: relative;
+
+        }
+.phone_image img{
+  position: absolute;
+left: 50%;
+transform: translate(-50%,0);
+border-radius: 25px;
+}
+
+div.about_app{
+    padding-top: 80px;
+    text-align: center;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:white;
+    
+}
+
+/* }
+	border-top: 2px solid #4863A0;
+    text-align: center;
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.side_paragraph{
+    padding-top:10px;
+    padding-right: 150px;
+    padding-left: 150px;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center
+}
+.about_app img{
+        max-height: 100%;
+        max-width: auto;
+        float: left;
+}
+
+/* .apple_playstore img{
+  display: inline-block;
+  margin: 25px 10px;
+} */
+
+.apple_playstore img{ 
+  float:left; 
+  width: 10%; 
+  height: 0%;
+
+  margin:0 1%;
+}
+
+.images {
+  width:100%;
+  display:inline-block;
+  white-space:nowrap;
+  background-color:#454545;
+  position: relative;
+  text-align: center;
+  line-height: 1em;
+  overflow: hidden;
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+figure { 
+  display: inline-block;
+  background-color:#454545 ;
+}
+
+/* .clearfix {
+  clear: both;
+} */
+
+div.apps_feture{
+  padding-top: 80px;
+  text-align: center;
+  color:black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background:white;
+}
+
+.apps_feture h2{
+  font-weight: bold;
+}
+
+.apps_feture img{
+  max-height: 100%;
+  max-width: auto;
+  float:none;
+}
+
+hr.line1{
+	border-top: 2px solid #4863A0;
+    text-align: center;
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 
+.secureapp{
+  padding-top:10px;
+  padding-right: 150px;
+  padding-left: 150px;
+  color:black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align:center
+}
+
+.secureapp img{
+  top: 550px;
+  right: 29px;
+  float: right;
+} */
+
+.appscreen {
+  width:100%;
+  display:inline-block;
+  white-space:nowrap;
+  background-color:#C2DFFF;
+  position: relative;
+  text-align: center;
+  line-height: 1em;
+  overflow: hidden;
+  color:black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.appscreen h2{
+  font-weight: bold;
+}
+
+hr.line{
+border-top: 2px solid #4863A0;
+  text-align: center;
+  width: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+figure { 
+  padding: inline start 1px;
+  padding-inline-end: 1px;
+  display: inline-block ;
+  margin: 0.5em; padding: 0 em;
+}
+
+img.scaled {
+  width: 100%;
+  height: 100%;
+}
+
+.video{
+  position: absolute;
+  width:100%;
+  display:inline-block;
+  white-space:nowrap;
+  background-color:#454545;
+  position: relative;
+  text-align: center;
+  line-height: 1em;
+  overflow: hidden;
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+div.usersay{
+  padding-top: 80px;
+  text-align: center;
+  color:black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background:white;
+  
+}
+.usersay h2{
+  font-weight: bold;
+}
+
+hr.line3{
+border-top: 2px solid #4863A0;
+  text-align: center;
+  width: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.usersay1 {
+  background-color:white;
+  border-radius: 5px;
+  padding: 5px;
+  /* margin: 25px 0; */
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  box-align: center;           
+  -moz-box-align: center;        
+ 
+}
+
+.box::before {
+  content: '"';
+  clear: both;
+  width: max-content;
+
+}
+
+.container img {
+  float:none;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 18px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.user_area{
+  padding:0vmax;
+  font-size: 14px;
+  text-align: center;
+  color: 	#837E7C;
+
+}
+
+.box{
+  /* border: 1px solid 	 #837E7C; */
+  padding: 25px;
+	width:35%;
+  box-shadow:
+  /* 5px 5px 2px  #DCDCDC, 
+  -5px -5px 2px  #DCDCDC, -5px -5px 2px  #DCDCDC */
+ inset 5px 5px 2px #DCDCDC,
+inset -5px -5px 2px #CECECE;
+}
+
+.priceplan {
+  width:100%;
+  padding-bottom: 20px;
+  display:inline-block;
+  white-space:nowrap;
+  background-color: #CECECE;
+  position: relative;
+  text-align: center;
+  line-height: 1em;
+  overflow: hidden;
+  color:black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.priceplan h2{
+  font-weight: bold;
+}
+
+.getapp {
+  width:100%;
+  padding-bottom: 20px;
+  display:inline-block;
+  white-space:nowrap;
+  background-color: #151B8D;
+  position: relative;
+  text-align: center;
+  line-height: 1em;
+  overflow: hidden;
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.getapp h2{
+  font-weight: bold;
+}
+
+.apple_playstore1 img{ 
+  float:none; 
+  width: 10%; 
+  height: 0%;
+
+  margin:0 1%;
+}
+.FAQ {
+  width:100%;
+  padding-bottom: 20px;
+  display:inline-block;
+  white-space:nowrap;
+  background-color:White;
+  position: relative;
+  text-align: center;
+  line-height: 1em;
+  overflow: hidden;
+  color:black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.FAQ h2{
+  font-weight: bold;
+}
+
+
+summary {
+  font-size: 1rem;
+  /* font-weight: 600; */
+  background-color: #fff;
+  color: #333;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 0.25rem;
+  padding-inline-start: 35%;
+  
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+details > summary::after {
+  position: absolute;
+  cursor: pointer;
+  right: 20px;
+}
+
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  right: 20px;
+}
+details > summary::-moz-details-marker {
+  display: none;
+}
+
+.Faq_href {
+  float: none;
+  color:black;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  padding-inline-start: 35%;
+}
+
+ .header a {
+  color:violet;
+  float:none;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.subscr_set {
+  width:100%;
+  padding-block:70px;
+  display:inline-block;
+  white-space:nowrap;
+  background-color:hsl(237, 53%, 55%);
+  position: relative;
+  text-align: center;
+  line-height: 1em;
+  overflow: hidden;
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.subscr_set h2{
+  font-weight: bold;
+}
+
+hr.line4{
+  border-top: 2px solid white;
+  background: white;
+    text-align: center;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+#ip1 {
+  border-bottom-left-radius: 18px;
+  border-start-start-radius: 18px;
+  background: white; 
+  padding:10px;
+  width:150px;
+  height: 8px;    
+}
+
+#ip2 {
+ 
+  border-right: 18px;
+  background:grey;
+  color:white;
+  padding: 10px; 
+  width: 55px;
+  height: 8px;    
+}
+ /* .container{
+ width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  background:white;
+  z-index: 10;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+  */
+
+
+.contactus{
+  position: absolute; 
+  padding: 1em;
+  background-color: white;
+  text-align:center;
+  margin-bottom: 10px;
+  float:left;
+  
+}
+
+#inputdefault{
+  margin-bottom: 35px;
+  border-color: grey;
+}
+
+.submit {
+  background-color:darkblue;
+  border: none;
+  color:white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 1.5px 1px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 35px;
+}
+
+hr.line6{
+    background-color: #151B8D;
+    text-align: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid#151B8D;
+  
+    
+  }
+
+  /* hr.line7{
+    background-color: #151B8D;
+    float: inline-start;
+    width: 20%;
+    text-align: center;
+    
+    border: 1px solid #151B8D;
+  
+    
+  } */
+
+
+.headque{
+  padding: 1em;
+  position: relative ;
+  background-color:white;
+  margin-bottom: 10px;
+  float:right;
+  padding-left:20px;
+
+}
+
+.side_contact{
+  line-height: 0.5em;
+  font-size:15px;
+}
+
+.loc_img{
+  font-size:18px;
+  font-weight: bold;
+
+}
+
+
+.side_contact img{
+     max-height: 100%;
+    max-width: auto;
+    float:left;
+}
+.info{
+  padding-left: 27px;
+}
+
+.footer {
+  width:100%;
+  height:180px;
+  display:inline-block;
+  white-space:nowrap;
+  background-color:#1f1e1e;
+  position: relative;
+  text-align: center;
+  line-height: 1em;
+  overflow: hidden;
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.footer_left{
+  float:left;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer_left p{
+  padding-top: 30%;
+  padding-left: 15%;
+}
+.footer-middle{
+  
+  text-align: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display:inline-block;
+
+}
+.footer-middle img{
+  float:center;
+
+  padding-top: 25%;
+}
+
+
+.footer_right{
+  text-align:center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display:inline-block;
+}
+
+.footer_right p{
+  padding-top: 30%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display:inline-block;
+ 
+}
+  
+  
